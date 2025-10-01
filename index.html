@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    
+
+    Hello World
+
+    <p>Vaishnavi ganesh kirve</p>
+    <!-- <h1>Vaishnavi ganesh kirve</h1> -->
+    <h2>Vaishnavi ganesh kirve</h2>
+    <h3>Vaishnavi ganesh kirve</h3>
+    <h4>Vaishnavi ganesh kirve</h4>
+    <h5>Vaishnavi ganesh kirve</h5>
+    <h6>Vaishnavi ganesh kirve</h6>
+
+    <b>Vaishnavi ganesh kirve</b>
+    <br>
+    <i>Vaishnavi ganesh kirve</i>
+    <br>
+    <u>Vaishnavi ganesh kirve</u>
+    <br>
+    <b><u><i>Vaishnavi ganesh kirve</i></u></b>
+    <br>
+    Vaishnavi ganesh kirve
+    <br>
+    <hr>
+    <strong>Most imp</strong><br>
+    <p>Today is <em>holiday</em></p>
+    <p>area of square is side<sup>2</sup></p>
+    <p>formula of carbon dioixde is CO<sub>2</sub></p>
+    <p>creating a big Y using Y with <code>pre</code>tag.</p>
+    <pre>
+        Y        Y
+         Y      Y  
+          Y    Y
+             Y
+             Y
+             Y
+             Y
+    </pre>
+    <small>&copy; Vidhya Pratishthan Baramati</small><br>
+    <p><abbr title="Hypertext Markup Language">HTML</abbr>is used to create webpage.</p>
+    <head>
+     <style>
+        code{
+          color:white;
+          background-color:blue;
+        } 
+     </style>
+    </head>
+    <body>
+    <p><code>document.getElementById</code><br>
+        is used to select element <br>
+         in web page using its ID.
+    </p> 
+    </body>
+    <p>press <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>i</kbd><br>to open developer console</p>
+    <p>Useless code (<del> Function Useless()</del>)<br>have been removed in newversion. </p>
+
+    <del>
+        <p>Plastic use for bags.</p>
+    </del>
+    <ins>
+        <p>Use biodegradablefor carrying Bags.</p>
+    </ins>
+
+    <p>mark tag is used to
+        <mark>Highlight</mark>  a text.
+    </p>
+
+    <blockquote cite="https://www.w3.org/TR/html52/introduction.html">
+        HTML went through a number of revisions and experienced.
+    </blockquote>
+
+    <p><s>
+        use &lt;center&gt;
+        tag is used to text in html.
+    </s></p>
+
+    <address>
+        Mailto:<a href="mailto:office@example.com">John smith</a><br>
+        Phone no:8007629260 <br>
+        Twitter:?@example_john
+    </address>
+
+   <p><cite>Monalisa </cite> painting is <br>
+        one of the most musterious paintings in the history</p>
+    
+    <p><dfn>HTML</dfn> is a markup language <br> used to create web pages</p>
+
+    <p>speed of bike was 65kmph
+        <meter min="0"  max="100" low="33" value="65"></meter>
+    </p>
+
+    <p>The task is 75% complete
+        <progress max="100" value="75"></progress>
+    </p>
+
+    <p>The concept of <q>this</q> in javasript <br> may be a little confusing to beginners.</p>
+
+    <template id="moreLang">
+        <li>Javascript</li>
+        <li>Python</li>
+    </template>
+    <ul id="langList">
+        <li>c</li>
+        <li>c++</li>
+    </ul>
+    <button onclick="addMoreLang()"> Add Language from template</button>
+    <script>
+        const moreLang=document.getElementById("moreLang");
+        const langList=document.getElementById("langList");
+
+        function addMoreLang() {
+            const clone = moreLang.content.cloneNode(true);
+            langList.appendChild(clone);
+        }
+    </script>
+
+    <p>I have a meeting at <time>02:30 pm.</time></p>
+    <p><time datetime="2021-06-23 17:00:00">My Birthday</time> is in the summer.</p>
+
+    <p>var <var>a</var> = 2, <var>b</var> = 3 <var>c</var> = 5;</p>
+    <p><var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> + <var>c</var><sup>2</sup></p>
+
+    <p><samp>Test cases failed <br>Please improve the algorithm</samp> </p>
+
+
+
+
+
+    <br><img src="image/myimage.jpg" alt="">
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>Vaishnavi</td>
+            <td>20</td>
+            <td>Jalochi</td>
+        </tr>
+        <tr>
+            <td>Siddhi</td>
+            <td>19</td>
+            <td>Tandulwadi</td>
+        </tr>
+        <tr>
+            <td>Rutuja</td>
+            <td>19</td>
+            <td>Malad</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            
+        </tr>
+        <tr>
+            <td>Potato</td>
+            <td>20</td>
+            
+        </tr>
+        <tr>
+            <td>Milk</td>
+            <td>38</td>
+            
+        </tr>
+        <tr>
+            <td>total</td>
+            <td>58</td>
+        
+        </tr>
+    </table>
+
+
+
+    <table border="1">\
+        <caption>Salary Table</caption>
+        <colgroup>
+            <col span="1" style="background-color: blueviolet;">
+            <col span="1" style="background-color: aqua">
+            <col span="1" style="background-color: orangered;">      
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Salary</th>
+            </tr>
+
+        </thead>
+        <tbody>
+        <tr>
+            <td>Vaishnavi</td>
+            <td>20</td>
+            <td>1500$</td>
+        </tr>
+        <tr>
+            <td>Siddhi</td>
+            <td>19</td>
+            <td>2000$</td>
+        </tr>
+        <tr>
+            <td>Rutuja</td>
+            <td>19</td>
+            <td>3000$</td>
+        </tr>
+        
+        </tbody>
+    </table>
+</body>
+</html>

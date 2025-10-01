@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Alex Smith</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #0c0c2c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.nav-links a {
+  display: block;
+  padding: 10px 0;
+  color: #c4c4c4;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a i {
+  margin-right: 10px;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.hero {
+  flex: 1;
+  background: url(image/vaish3.jpg) no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  color: #fff;
+}
+
+.hero-text p {
+  font-size: 24px;
+  color: #ddd;
+  margin-top: 10px;
+}
+
+.typing {
+  color: #00ffe1;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <aside class="sidebar">
+      <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+      <h2>Alex Smith</h2>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-skype"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#"><i class="fas fa-home"></i> Home</a>
+        <a href="#"><i class="fas fa-user"></i> About</a>
+        <a href="#"><i class="fas fa-file-alt"></i> Resume</a>
+        <a href="#"><i class="fas fa-briefcase"></i> Portfolio</a>
+        <a href="#"><i class="fas fa-cogs"></i> Services</a>
+        <a href="#"><i class="fas fa-layer-group"></i> Dropdown</a>
+        <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+      </nav>
+    </aside>
+
+    <main class="hero">
+      <div class="hero-text">
+        <h1>Alex Smith</h1>
+        <p>I'm <span class="typing">a Web Developer</span></p>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>

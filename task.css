@@ -1,0 +1,29 @@
+
+
+.mainbox{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    border-bottom: 5px solid rgb(red, green, blue);
+}
+
+.box{
+    
+    width: 600px;
+    border-bottom: 5px solid green;
+    border-left: 5px solid blue;
+    border-right: 5px solid rgb(red, green, blue);
+    margin-left: 15px;
+}
+
+
+
+h1 {
+    padding: 300px;
+    text-align: center;
+}
+
+.box p {
+    border-top: 5px solid green;
+
+}

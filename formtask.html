@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="0" cellpadding="10">
+    <tr>
+        
+        <td valign="top">
+            <form>
+                <fieldset>
+                    <legend><h4>Purchases</h4></legend>
+                    <label for="product">Product Name:</label><br>
+                    <input list="Product" id="product" name="product">
+                    <datalist id="Product">
+                        <option value="Mug">
+                        <option value="Jug">
+                        <option value="Jar">
+                    </datalist><br><br>
+
+                    <label for="quantity">Quantity:</label><br>
+                    <input type="number" id="quantity" name="quantity"><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h4>Personal Details</h4></legend>
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br><br>
+
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h4>Credit Card Details</h4></legend>
+                    <label>Credit Card Type:</label><br>
+                    <input type="radio" name="card" id="visa" value="Visa">
+                    <label for="visa">Visa</label><br>
+
+                    <input type="radio" name="card" id="mastercard" value="Mastercard">
+                    <label for="mastercard">Mastercard</label><br><br>
+
+                    <label for="ccnum">Credit Card Number:</label><br>
+                    <input type="text" id="ccnum" name="ccnum"><br><br>
+
+                    <label for="expdate">Expiry Date:</label><br>
+                    <input type="month" id="expdate" name="expdate"><br>
+                </fieldset>
+
+                <fieldset>
+        <fieldset>
+            <legend><h4>Billing Information</h4></legend>
+            <label>Postal Address:</label><br>
+            <textarea cols="40" rows="4"></textarea><br>
+            <label>Home Address:</label>
+            <input type="checkbox">Same as above<br>
+            <textarea cols="40" rows="4"></textarea>
+        </fieldset><br>
+
+
+
+                <input type="submit" value="Place my order">
+            </form>
+        </td>
+
+        
+        <td valign="top">
+            <form>
+                <fieldset>
+                    <legend>Your Details</legend><br>
+
+                    <label for="name">1. Name</label>
+                    <input type="text" id="name" placeholder="First and last name"><br><br>
+
+                    <label for="email">2. Email</label>
+                    <input type="email" id="email" placeholder="example@domain.com"><br><br>
+
+                    <label for="phone">3. Phone</label>
+                    <input type="tel" id="phone" placeholder="Eg. +447500000000"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Delivery Address</legend><br>
+
+                    <label for="addr">1. Address</label><br>
+                    <textarea id="addr" cols="25" rows="4"></textarea><br><br>
+
+                    <label for="postcode">2. Post Code</label>
+                    <input type="text" id="postcode"><br><br>
+
+                    <label for="country">3. Country</label>
+                    <input type="text" id="country"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Card Details</legend><br>
+
+                    <label>1. Card Type</label>
+                    <fieldset>
+                        <input type="radio" name="ctype" id="visa2">
+                        <label for="visa2">1. VISA</label><br>
+
+                        <input type="radio" name="ctype" id="amex">
+                        <label for="amex">2. AmEx</label><br>
+
+                        <input type="radio" name="ctype" id="mastercard2">
+                        <label for="mastercard2">3. Mastercard</label><br>
+                    </fieldset><br>
+
+                    <label for="cardnum">2. Card Number</label>
+                    <input type="text" id="cardnum"><br><br>
+
+                    <label for="sec">3. Security Code</label>
+                    <input type="password" id="sec"><br><br>
+
+                    <label for="cname">4. Name</label>
+                    <input type="text" id="cname" placeholder="Exact name as on the card"><br><br>
+                </fieldset>
+
+                <input type="submit" value="Buy it!">
+            </form>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

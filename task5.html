@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IOGO MEDIA</title>
+  <style>
+    body {
+  
+  font-family: 'Segoe UI', sans-serif;
+  background-color: rgb(7, 6, 6);
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(17, 17, 17);
+  padding: 20px 50px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color:rgb(230, 0, 115);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  font-size: 15px;
+
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid rgb(230, 0, 115);
+}
+
+.main1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+
+.left {
+  width: 55%;
+  margin-top: 90px;
+}
+
+.left h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom:-2px;
+}
+
+
+.left p{
+    font-size: 20px;
+}
+
+.left a {
+  color: rgb(237, 8, 122);
+  text-decoration: underline;
+}
+
+.right {
+  width: 30%;
+  margin-top: 110px;
+  
+}
+
+.box {
+  background-color: rgb(44, 44, 44);
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(247, 244, 244);
+  text-align: center;
+}
+
+.box img {
+  width: 80px;
+  height: 80px;
+  
+  margin-bottom: 20px;
+  
+}
+
+input {
+  width: 50%;
+  padding-bottom: 20px;
+  border: none;  
+  border-bottom: 2px solid white;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  
+}
+
+
+
+button {
+  width: 50%;
+  padding: 10px;
+  background-color: rgb(230, 0, 115);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  
+}
+
+button:hover {
+  background-color: rgb(255, 51, 153);
+}
+hr{
+  width: 50px;
+  rotate: -5deg;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  font-weight:  bold;
+  
+}
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="logo">iOGO</div>
+    <nav>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">REVIEWS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="main1">
+    <div class="left">
+      <h1>iOGO MEDIA</h1>
+      <hr style="width: 50px;">
+      <p>
+        If you click on navigation links, smooth scrolling does not work, <br>
+        perhaps the functions are not supported by your browser. You can <br>
+        check the support on the <a href="#">Can I use</a> site.
+      </p>
+      <p>
+        And also added a parallax effect and logo animation, a sample of <br>
+        which you  <a href="#"> can find here</a>.
+      </p>
+    </div>
+
+    <div class="right">
+      <div class="box">
+        <img src="image/girl.jpg" alt="Profile">
+        <form>
+          
+          <input value="Email:" type="email" placeholder="Email:"><br><br>
+          
+          <input  value="Password:" type="text" placeholder="Password:"><br><br>
+          <button type="submit">FOLLOW ME</button>
+        </form>
+      </div>
+    </div>
+</div>
+</body>
+</html>

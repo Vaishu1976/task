@@ -1,0 +1,32 @@
+h1{
+    color: brown;
+}
+.home{
+    color: blue;
+}
+.container h1{
+    color: blueviolet;
+    background-color: aqua;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    box-sizing: 2px;
+    border-style: solid;
+    border-color: red;
+    border-left: 4px solid red;
+    border-right: 4px solid blue;
+    border-top: 4px solid blueviolet;
+    border-bottom: 4px solid green;
+}
+.box2{
+    height: 350px;
+    width: 350px;
+    border: 4px solid red;
+  
+}
+.main{
+    height: 200px;
+    width: 200px;
+    
+}

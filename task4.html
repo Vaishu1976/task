@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Develop Experiences</title>
+  <style>
+    .main {
+      background-image: url("image/work.jpg");
+      background-size: cover;
+      background-position: center;
+      width: 1100px;
+      height: 300px;
+      text-align: center;
+      color: white;
+    }
+
+    .box {
+      background-color: rgba(17, 17, 17, 0.4);
+      width: 1100px;
+      height: 100%;
+    }
+
+    .text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+
+    .text h1 {
+      font-size: 50px;
+
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .text p {
+      font-size: 30px;
+
+    }
+
+    .box1 {
+      display: flex;
+      /* justify-content: space-evenly; */
+      gap: 120px;
+
+
+    }
+
+    .box2 {
+      display: flex;
+      /* justify-content: space-evenly; */
+
+      gap: 120px;
+      margin-top: 20px;
+    }
+
+
+    .card {
+
+      width: 200px;
+      border-radius: 6px;
+      text-align: center;
+      gap: 10px;
+      /* margin-right: 50px; */
+
+    }
+
+    .card legend {
+      font-weight: bold;
+      margin-bottom: 8px;
+
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 8px 16px;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .net {
+      color: rgb(15, 235, 15);
+    }
+
+    .nat {
+      color: rgb(10, 67, 236);
+    }
+
+    .ht {
+      color: rgb(245, 24, 24);
+
+    }
+
+    .test {
+      color: rgb(79, 72, 72);
+
+    }
+
+    .green {
+      background-color: rgb(15, 235, 15);
+    }
+
+    .blue {
+      background-color: rgb(10, 67, 236);
+    }
+
+    .red {
+      background-color: rgb(245, 24, 24);
+    }
+
+    .gray {
+      background-color: rgb(79, 72, 72);
+    }
+
+    fieldset {
+      width: 250px;
+      height: 250px;
+      box-sizing: border-box;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div style="display: flex;justify-content: center;">
+    <div class="main">
+      <div class="box">
+        <div class="text">
+          <div>
+            <h1>Develop Experiences</h1>
+            <p>UI frameworks and app development tools that 2.1 million developers love</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top: 30px;display: flex; justify-content: center;">
+    <div>
+      <div class="box1">
+        <div class="card">
+          <fieldset>
+            <legend class="net">.NET</legend>
+            <h2>DevCraft <sup style="font-size: 15px;"></sup></h2>
+            <p>.NET UI controls, reporting and developer productivity tools</p>
+            <button class="green">Learn More</button>
+          </fieldset>
+        </div>
+
+        <div class="card">
+          <fieldset>
+            <legend class="nat">NATIVE MOBILE</legend>
+            <h2>NativeScript</h2>
+            <p>Open source framework for building truly native mobile apps with Angular, TypeScript or JavaScript</p>
+            <button class="blue">Learn More</button>
+          </fieldset>
+        </div>
+
+        <div class="card">
+          <fieldset>
+            <legend class="ht">HTML5</legend>
+            <h2>Kendo UI <sup style="font-size: 15px;">*</sup></h2>
+            <p>JavaScript, HTML5 UI widgets for responsive web and data visualization</p>
+            <button class="red">Learn More</button>
+          </fieldset>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="card">
+          <fieldset>
+            <legend class="test">CMS</legend>
+            <h2>Progress <sup style="font-size: 15px;">*</sup> Sitefinity™</h2>
+            <p>Web CMS and customer analytics for delivering personalized experiences</p>
+            <button class="gray">Learn More</button>
+          </fieldset>
+        </div>
+
+        <div class="card">
+          <fieldset>
+            <legend class="test">MOBILE</legend>
+            <h2>Telerik <sup style="font-size: 15px;">*</sup>Platform</h2>
+            <p>Cloud platform for building, deploying, and managing mobile apps</p>
+            <button class="gray">Learn More</button>
+          </fieldset>
+        </div>
+
+        <div class="card">
+          <fieldset>
+            <legend class="test">TESTING</legend>
+            <h2>Test Studio <sup style="font-size: 15px;">*</sup></h2>
+            <p>Automated testing solution for desktop, web and responsive apps</p>
+            <button class="gray">Learn More</button>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

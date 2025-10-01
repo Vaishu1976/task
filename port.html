@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+
+    }
+
+    .high {
+      display: flex;
+      width: 100%;
+    }
+
+    .left {
+      width: 330px;
+      height: 100vh;
+      background-color: rgb(3, 9, 12);
+      color: white;
+      float: left; 
+      position: fixed;
+
+
+    }
+
+    img {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      margin-left: 80px;
+      margin-top: 20px;
+      border: 8px solid rgb(79, 74, 74)
+    }
+
+    .head {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 25px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .icons i {
+      font-size: 22px;
+      background-color: rgb(21, 16, 16);
+      padding: 30px;
+      margin-top: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .list {
+      margin-top: 30px;
+      font-size: 19px;
+      margin-left: 30px;
+
+    }
+
+    .list a {
+      color: rgb(184, 181, 181);
+      margin-bottom: 40px;
+      text-decoration: none;
+    }
+
+    li {
+      display: flex;
+      gap: 15px;
+    }
+
+    .list i {
+      color: rgb(184, 181, 181);
+    }
+
+    .list a:hover {
+      color: rgb(255, 255, 255);
+    }
+
+    .list i:hover {
+      color: rgb(9, 176, 248);
+    }
+
+    .main {
+      height: 810px;
+      background-image: url(image/vaish3.jpg);
+      width: 1800px;
+      background-size: cover;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+      float: right;
+
+    }
+
+    .box {
+      height: 810px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      
+    }
+
+    .title {
+      font-size: 52px;
+      color: rgb(251, 249, 249);
+      font-weight: bold;
+      text-align: center;
+      margin-right: 650px;
+      margin-top: 350px;
+    }
+
+    .para {
+      font-size: 28px;
+      color: rgb(251, 250, 250);
+      font-weight: bold;
+      text-align: center;
+      margin-right: 760px;
+      padding: 10px;
+    }
+
+    .main-content {
+      margin-left: 320px;
+      padding: 40px;
+
+      background-color: rgb(255, 255, 255);
+      min-height: 100vh;
+    }
+
+    .about-content {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .about-content img{
+      width: 350px;
+      height: 250px;
+      border-radius: 2px;
+    }
+
+    .about-text h2 {
+      margin-top: 25px;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .about-text em {
+      color: rgb(85, 85, 85);
+    }
+
+    .details {
+      display: flex;
+      gap: 50px;
+      margin: 20px 0;
+    }
+
+    .details ul {
+      list-style: none;
+    }
+
+    .details ul li {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+
+    .details ul li i {
+      color: rgb(0, 191, 255);
+      margin-right: 5px;
+    }
+
+    hr {
+      border: 3px solid rgb(9, 129, 234);
+      width: 40px;
+
+    }
+
+    .main-content h1 {
+      margin-bottom: 10px;
+    }
+
+    .intro {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="high">
+    <div class="left">
+      <div class="sub">
+        <img src="image/me2.jpg" alt="Me">
+        <div class="head">Vaishnavi Kirve</div>
+        <div class="icons"><i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="list">
+        <ul type="none">
+          <div class="l1">
+            <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+          </div>
+          <div class="l2">
+            <li><i class="fa-solid fa-user"></i><a href="#">About</a></li>
+          </div>
+          <div class="l3">
+            <li><i class="fa-solid fa-file"></i><a href="#">Resume</a></li>
+          </div>
+          <div class="l4">
+            <li><i class="fa-solid fa-images"></i><a href="#">Portfolio</a></li>
+          </div>
+          <div class="l5">
+            <li><i class="fa-solid fa-server"></i><a href="#">Services</a></li>
+          </div>
+          <div class="l6">
+            <li><i class="fa-solid fa-circle-chevron-down"></i><a href="#">Dropdown</a></li>
+          </div>
+          <div class="l7">
+            <li><i class="fa-solid fa-envelope"></i><a href="#">Contact</a></li>
+          </div>
+        </ul>
+      </div>
+
+    </div>
+    <div class="main">
+      <div class="box">
+        <div class="title">Vaishnavi Kirve</div>
+        <div class="para">I'm Web Developer</div>
+
+      </div>
+      <div class="main-content">
+        <h1>About</h1>
+        <hr>
+        <p class="intro">"My name is Vaishnavi Ganesh Kirve, and I am a third-year student pursuing a Bachelor of
+          Technology degree in Artificial Intelligence and Data Science at VPKBIET College."</p>
+
+        <div class="about-content">
+          <img src="image/me.jpg" alt="Vaishnavi">
+          <div class="about-text">
+            <h2> Web Developer.</h2>
+            <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</em></p>
+
+            <div class="details">
+              <ul>
+                <li><i class="fas fa-chevron-right"></i> <strong>Birthday:</strong> 27 Dec 2004</li>
+                <li><i class="fas fa-chevron-right"></i> <strong>Website:</strong> www.example.com</li>
+                <li><i class="fas fa-chevron-right"></i> <strong>Phone:</strong> +918149740799</li>
+                <li><i class="fas fa-chevron-right"></i> <strong>City:</strong>Baramati,Pune</li>
+              </ul>
+              <ul>
+                <li><i class="fas fa-chevron-right"></i> <strong>Age:</strong> 20</li>
+                <li><i class="fas fa-chevron-right"></i> <strong>Degree:</strong>Bachelor of techonology</li>
+                <li><i class="fas fa-chevron-right"></i> <strong>Email:</strong>kirvevaishnavi27@gmail.com</li>
+                <li><i class="fas fa-chevron-right"></i> <strong>Freelance:</strong> Available</li>
+              </ul>
+            </div>
+
+            <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+</body>
+
+</html>

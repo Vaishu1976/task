@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      
+      font-family: Arial, sans-serif;
+      background-color: rgb(242, 242, 242);
+    }
+
+    .left {
+      float: left;
+      width: 250px;
+      height: 100vh;
+      background-color: rgb(7, 149, 237);
+      color: white;
+      left: 0;
+      top: 0;
+      padding-top: 20px;
+    }
+
+    .pro {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .pro img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: none
+      margin-top: 15px;
+    }
+    .left ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+    .left ul li {
+      padding: 15px 20px;
+    }
+
+    
+
+    .left ul li a {
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+
+    .main {
+      display: flex; 
+      justify-content: center;
+      width : 80%;
+      align-items: center;
+    }
+
+    .head { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: white;
+      margin-top: 110px;
+      padding: 30px;
+      
+    }
+
+    .head1 {
+      font-size: 48px;
+      font-weight: bold;
+      letter-spacing: 12px;
+
+    }
+    .head2{
+      font-size: 48px;
+      font-weight: 800;
+      background-color: black;
+      color: white;
+      letter-spacing: 8px;
+      
+      
+    }
+    .head3{
+      font-size: 48px;
+      font-weight: bold;
+      border: 8px solid black;
+      margin-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .flex{
+      width: 100%;
+      height: 50px;
+      background-color:  rgb(22, 145, 222);
+    }
+    .menu{
+      margin-top: 25px;
+      margin-left: 15px;
+      font-size: 30px;
+      color: white;
+      
+    }
+    
+    li{
+      display: flex;
+      gap: 30px;
+    }
+    .l1{
+      background-color: white;
+      color: rgb(22, 145, 222);
+    }
+    .left .l1 a{
+      font-size: 15px;
+      color: rgb(22, 145, 222);
+      background-color: white;
+    }
+    .list{
+
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="left">
+    <div class="pro">
+      <img src="image/girl.jpg" alt="">
+      <h2>Anamika Roy</h2>
+      <h5>Designer</h5>
+    </div>
+
+    <div class="list">
+    <ul type="none">
+       <div class="l1">
+          <li> <i class="fa-solid fa-house-chimney"></i>
+            <a href="#">Home</a></li>
+       </div>
+      <div class="l2">
+        <li><i class="fa-solid fa-desktop"></i><a href="#">My Dashboard</a></li>
+      </div>
+      <div class="l3">
+        <li><i class="fa-solid fa-user-group"></i><a href="#">People</a></li>
+      </div>
+      <div class="l4">
+        <li><i class="fa-solid fa-gauge"></i><a href="#">Performance</a></li>
+      </div>
+      <div class="l5">
+        <li><i class="fa-solid fa-database"></i><a href="#">Development</a></li>
+      </div>
+      <div class="l6">
+        <li><i class="fa-solid fa-chart-line"></i><a href="#">Reports</a></li>
+      </div>
+      <div class="l7">
+          <li><i class="fa-solid fa-user-plus"></i><a href="#">Admin</a></li>
+      </div>
+     <div class="l8">
+       <li><i class="fa-solid fa-gear"></i><a href="#">Settings</a></li>
+     </div>
+
+    </ul>
+    </div>
+  </div>
+
+
+  <div class="flex">
+    <div class="menu"><i class="fa-solid fa-bars"></i></div>
+    
+  </div>
+  <div class="main">
+
+    <div class="head">
+      <div>
+        <div class="head1">
+          <h1>SIDE NAVIGATION</h1>
+        </div>
+        <div class="head2">
+          <h1>MENU BAR USING</h1>
+        </div>
+        <div class="head3">
+          <h1>ONLY HTML AND CSS</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
